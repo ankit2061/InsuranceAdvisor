@@ -1,6 +1,19 @@
-
 [theme]
-primaryColor = "#1E88E5"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F8F9FA"
-textColor = "#E6EDF3"
+primaryColor = "#00d4aa"         # Accent buttons, headers (rgb(0, 212, 170))
+backgroundColor = "#181c23"      # Main background, matches dark UI in screenshot
+secondaryBackgroundColor = "#23272e"  # Card/Panel backgrounds, slightly lighter than main
+textColor = "#e6edf3"            # Main text, headings, button text
+font = "sans serif"
+
+# Custom component colors (for use in your CSS or inline styling)
+# These are not directly supported in config.toml, but can guide your CSS:
+# Sidebar: #23272e
+# Main Text: #8b949e
+# Input/Placeholder: #8b949e, #e6edf3
+# Claim/Patient Section Headers: #00d4aa
+# Button (Generate): 
+#   - bg: #00d4aa
+#   - text: #f0f6fc
+#   - hover bg: #00a085
+#   - hover text: #ffffff
+# Reset Button: #d29922
