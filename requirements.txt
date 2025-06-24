@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+beautifulsoup4
+pandas
+schedule
+pyyaml
+requests
